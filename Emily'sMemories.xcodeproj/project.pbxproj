@@ -14,6 +14,7 @@
 		5C5D891B2B94517F00DC5932 /* Emily_sMemoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D891A2B94517F00DC5932 /* Emily_sMemoriesTests.swift */; };
 		5C5D89252B94517F00DC5932 /* Emily_sMemoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D89242B94517F00DC5932 /* Emily_sMemoriesUITests.swift */; };
 		5C5D89272B94517F00DC5932 /* Emily_sMemoriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D89262B94517F00DC5932 /* Emily_sMemoriesUITestsLaunchTests.swift */; };
+		5C5D89342B945A1E00DC5932 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D89332B945A1E00DC5932 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5C5D89202B94517F00DC5932 /* Emily'sMemoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emily'sMemoriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5D89242B94517F00DC5932 /* Emily_sMemoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emily_sMemoriesUITests.swift; sourceTree = "<group>"; };
 		5C5D89262B94517F00DC5932 /* Emily_sMemoriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emily_sMemoriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C5D89332B945A1E00DC5932 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				5C5D89092B94517D00DC5932 /* Emily_sMemoriesApp.swift */,
 				5C5D890B2B94517D00DC5932 /* ContentView.swift */,
+				5C5D89332B945A1E00DC5932 /* SwiftUIView.swift */,
 				5C5D890D2B94517F00DC5932 /* Assets.xcassets */,
 				5C5D890F2B94517F00DC5932 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				5C5D890C2B94517D00DC5932 /* ContentView.swift in Sources */,
 				5C5D890A2B94517D00DC5932 /* Emily_sMemoriesApp.swift in Sources */,
+				5C5D89342B945A1E00DC5932 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +432,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,8 +460,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
