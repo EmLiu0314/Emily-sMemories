@@ -12,7 +12,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            getNext()
+            //getNext()
             Image("Pic1")
                 .resizable()
                .aspectRatio(contentMode: .fill)
@@ -22,7 +22,7 @@ struct ContentView: View {
         .padding()
     }
     func getNext(){
-        Button("Next"){
+       _ Button("Next"){
             //startGame.toggle()
         }
     }
